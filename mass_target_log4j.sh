@@ -3,7 +3,7 @@
 # Ensure these .txt files are in the same dir or specify full path
 readarray -t target <target_list.txt
 readarray -t payload <payload_list.txt
-readarray -t headers <headers_2.txt
+readarray -t headers <headers.txt
 
 for i in ${!target[@]}; do 
     for j in ${!headers[@]}; do
